@@ -1,0 +1,33 @@
+#but{
+    background-color: #d9afed;
+    border: 0px;
+    border-radius: 5px;
+    -webkit-box-shadow: -5px 3px 16px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: -5px 3px 16px 0px rgba(0,0,0,0.61);
+    box-shadow: -5px 3px 16px 0px rgba(0,0,0,0.61);
+}
+
+#matter{
+    font-size: xx-large;
+    font-weight: 800;
+    background: linear-gradient(60deg,#662D8C,#ED1E79);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#text{
+    resize: none;
+    border: 3px solid;
+    border-radius: 7px;
+    font-size: x-large;
+    font-family: monospace;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
